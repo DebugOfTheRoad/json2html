@@ -1,15 +1,5 @@
-<?php
-if ($_GET['debug'] == true && $_GET['no_html'] == true) {
-?>
-<?php
-    echo $mdp_tpl_debug;
-?>
-<?php
-} else {
-?>
 <!DOCTYPE html>
 <html lang="zh">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -260,8 +250,4 @@ if ($_GET['debug'] == true && $_GET['no_html'] == true) {
     })(debug_data);
     console.log(debug_data);
 </script>
-
 </html>
-<?php
-}
-?>
